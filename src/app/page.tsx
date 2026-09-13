@@ -1,3 +1,8 @@
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+
+
 const technologies = [
   "Java",
   "Spring Boot",
@@ -16,7 +21,7 @@ export default function Home() {
             href="#home"
             className="text-lg font-semibold tracking-tight text-white"
           >
-            Freddy<span className="text-neutral-500">.</span>
+            Freddy Arturo Camacho Garcia<span className="text-neutral-500">.</span>
           </a>
 
           <div className="hidden items-center gap-8 text-sm text-neutral-400 md:flex">
@@ -64,9 +69,10 @@ export default function Home() {
             </p>
 
             {/* Main heading */}
-            <h1 className="max-w-5xl text-5xl font-semibold leading-[1.05] tracking-[-0.04em] sm:text-6xl md:text-7xl lg:text-8xl">
+                <h1 className="max-w-5xl text-5xl font-semibold leading-[1.05] tracking-[-0.045em] sm:text-6xl md:text-6xl lg:text-[5.25rem]">
+                <span className="text-neutral-400">complex ideas</span> into
               I build software that turns{" "}
-              <span className="text-neutral-500">complex ideas</span> into
+              <span className="text-neutral-400">complex ideas</span> into
               reliable products.
             </h1>
 
